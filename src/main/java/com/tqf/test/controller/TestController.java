@@ -1,5 +1,6 @@
 package com.tqf.test.controller;
 
+import com.tqf.test.service.TestExtendServiceImpl;
 import com.tqf.test.service.TestServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,7 @@ public class TestController {
 
     @Autowired
     private TestServiceImpl testService;
+
     /**
      *      解析String xml
      *      http://localhost:8080/testdemo/Stringapi
